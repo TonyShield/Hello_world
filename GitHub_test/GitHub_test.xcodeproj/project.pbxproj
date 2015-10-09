@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6FAA21391BBE48900026D59A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA21381BBE48900026D59A /* main.cpp */; };
-		6FAA21441BBE48A80026D59A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA21411BBE48A80026D59A /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,7 @@
 /* Begin PBXFileReference section */
 		6FAA21351BBE48900026D59A /* GitHub_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitHub_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAA21381BBE48900026D59A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		6FAA21411BBE48A80026D59A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6FBCF72B1BBE626A007B887D /* thrift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = thrift; path = ../thrift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +42,7 @@
 		6FAA212C1BBE48900026D59A = {
 			isa = PBXGroup;
 			children = (
-				6FAA21411BBE48A80026D59A /* README.md */,
+				6FBCF72B1BBE626A007B887D /* thrift */,
 				6FAA21371BBE48900026D59A /* GitHub_test */,
 				6FAA21361BBE48900026D59A /* Products */,
 			);
@@ -122,7 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FAA21391BBE48900026D59A /* main.cpp in Sources */,
-				6FAA21441BBE48A80026D59A /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +237,7 @@
 				6FAA213E1BBE48900026D59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
